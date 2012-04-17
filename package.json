@@ -1,0 +1,31 @@
+{
+    "name": "rackspace-tools",
+    "version": "1.0.0",
+    "description": "Some tools to control rackspace",
+    "keywords": [
+        "rackspace",
+        "cloud",
+        "servers",
+        "api",
+    ],
+    "author": {
+        "name": "Peteris Krumins",
+        "email": "peteris.krumins@gmail.com",
+        "web": "http://www.catonmat.net",
+        "twitter": "pkrumins"
+    }, 
+    "license": {
+        "type": "MIT"
+    }, 
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/pkrumins/rackspace-tools.git" 
+    }, 
+    "engines": {
+        "node": ">=0.6.0"
+    },
+    "dependencies": {
+        "cloudserver" : ">=0.2.9"
+    }
+}
+
