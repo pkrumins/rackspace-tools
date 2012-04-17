@@ -1,7 +1,7 @@
 var fs = require('fs');
 var rackspace = require('cloudservers');
 
-var config = JSON.parse(fs.readFileSync(__dirname + '../config.json'));
+var config = JSON.parse(fs.readFileSync(__dirname + '/../config.json'));
 var cloudServerConfig = {
     auth : config
 };
