@@ -13,15 +13,18 @@ var cloudServerConfig = {
 };
 
 var client = rackspace.createClient(cloudServerConfig);
+/*
 client.setAuth(function (err) {
     if (err) {
         console.log("Failed authenticating at RackSpace. Error:", err.toString());
         process.exit(1);
     }
+    */
     client.getServers(true, function (err, servers) {
         servers.forEach(function (server) {
             console.log(server.name + ": " + server.addresses.public);
         });
     });
+/*
 });
-
+*/
